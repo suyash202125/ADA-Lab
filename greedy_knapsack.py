@@ -8,7 +8,7 @@ def greedy_knap(weights, profits, max_weight):
     # arr is list of tuple denoting (weight, profit)
     arr = [(weights[i], profits[i]) for i in range(n)]
 
-    # sorted in reverse order based on profits
+    # sorted in decreasing  order of profits
     arr = sorted(arr, key = lambda arr:arr[1], reverse = True)
     
     max_profit = 0 #stores max profits
