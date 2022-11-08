@@ -70,10 +70,6 @@ class Graph:
 
                 MST_weight += result[i][j]
         print("\nThe weight of MST:", MST_weight)
-
-
-
-    
                 
 #DRIVER CODE                    
 # Example graph has 9 nodes
