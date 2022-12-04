@@ -29,7 +29,7 @@ def greedy_knap(weights, profits, max_weight):
             #append the item to result list
             result.append(item)
 
-    return (result, max_profit)
+    return (f"Items: {result}, Maximum profit: {max_profit}")
 
 #Driver Code
 weight_list = [7, 1, 9, 4]
